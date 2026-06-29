@@ -1,10 +1,21 @@
-# Python Notes
+# Student Management System
 
-This repository contains my Python practice programs.
+## Description
+This is a simple Student Management System developed using Python.
 
-## Topics
-- OOP Concepts
-- Functions
-- Loops
-- Lists
-- Pandas Practice
+## Features
+- Add Student
+- View Students
+- Search Student
+- Update Student
+- Delete Student
+
+## Technologies Used
+- Python
+- JSON
+- File Handling
+
+## Run
+```bash
+python main.py
+```
