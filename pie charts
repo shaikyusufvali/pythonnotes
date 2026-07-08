@@ -1,0 +1,17 @@
+| Parameter       | Purpose                            |
+| --------------- | ---------------------------------- |
+| `labels`        | Slice names                        |
+| `colors`        | Slice colors                       |
+| `autopct`       | Percentage display                 |
+| `explode`       | Slice ni bayataki teeyadam         |
+| `shadow`        | Shadow add cheyadam                |
+| `startangle`    | Starting angle set cheyadam        |
+| `radius`        | Pie size change                    |
+| `counterclock`  | Clockwise/Anti-clockwise direction |
+| `wedgeprops`    | Border style                       |
+| `textprops`     | Text font properties               |
+| `pctdistance`   | Percentage position                |
+| `labeldistance` | Label position                     |
+| `normalize`     | Values ni normalize cheyadam       |
+| `rotatelabels`  | Labels rotate cheyadam             |
+ best functions to practice the pie charts
