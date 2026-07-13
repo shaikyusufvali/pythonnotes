@@ -1,0 +1,32 @@
+import os
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def generate_logo_prompt(app_name, description, style):
+    prompt = f"""
+    You are an expert brand designer.
+
+    App Name: {app_name}
+
+    Description:
+    {description}
+
+    Style:
+    {style}
+
+    Generate:
+
+    1. Logo Concept
+    2. Color Palette
+    3. Font Recommendation
+    4. Icon Recommendation
+    5. AI Image Prompt
+    """
+
+    response = client.responses.create(
+        model="gpt-5",
+        input=prompt
+    )
+
+    return response.output_text
